@@ -82,6 +82,8 @@ cd military_object_detection
 pip install -r requirements.txt
 ```
 
+📦 Download the trained YOLOv8 model: [Google Drive Link](https://drive.google.com/file/d/1JJ0xFgYPnb0D7iFsjFc-2ZAufK8SQiXL/view?usp=drivesdk)
+
 > Make sure `yolov8_model.pt` (your trained model) is in the root directory.
 
 ### ▶️ Run Streamlit App
@@ -97,9 +99,10 @@ streamlit run app.py
 ```
 my_project/
 ├── app.py                     # Streamlit app
-├── yolov8_model.pt            # Trained model (~50MB)
+├── yolov8_model.pt            # Trained model (Download from drive link provided)
 ├── PR_curve.png               # Precision-recall curve
 ├── confusion_matrix.png       # Confusion matrix
+├── screenshot.png             # Screenshot of app
 ├── requirements.txt           # Python dependencies
 └── README.md                  # Project documentation
 ```
@@ -118,7 +121,7 @@ my_project/
 
 ## 📌 Notes
 
-- The model uses a confidence threshold of **0.10** to detect even less visible objects.
+- The model uses a confidence threshold of **0.10** to detect even less visible objects. (You may adjust this value based on your needs)
 - Dataset was augmented using techniques like rotation, flipping, and brightness adjustment to improve generalization.
 
 ---

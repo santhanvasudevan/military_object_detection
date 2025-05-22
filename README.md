@@ -98,13 +98,13 @@ streamlit run app.py
 
 ```
 my_project/
-├── app.py                     # Streamlit app
-├── yolov8_model.pt            # Trained model (Download from drive link provided)
-├── PR_curve.png               # Precision-recall curve
-├── confusion_matrix.png       # Confusion matrix
-├── screenshot.png             # Screenshot of app
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project documentation
+├── app.py                                 # Streamlit app
+├── yolov8_model.pt                        # Trained model (Download from drive link provided)
+├── PR_curve.png                           # Precision-recall curve
+├── confusion_matrix_normalized.png        # Confusion matrix
+├── screenshot.png                         # Screenshot of app
+├── requirements.txt                       # Python dependencies
+└── README.md                              # Project documentation
 ```
 
 ---

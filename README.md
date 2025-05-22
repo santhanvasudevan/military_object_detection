@@ -10,6 +10,12 @@ This project uses a YOLOv8-medium model trained on a custom dataset of military 
 
 ---
 
+## 🖼️ App Functions Preview
+
+![Screenshots](screenshot.png)
+
+---
+
 ## 🎯 Use Cases
 
 - **Reconnaissance & surveillance**
